@@ -33,13 +33,15 @@
     margin-right: 0px;
     fill: #afb1b8;
     transition-duration: 250ms;
+
+    &:hover {
+        fill: #ffffff;
+        border-radius: 50%;
+        background-color: #2196f3;
+    }
 }
 
-.style--svg:hover {
-    fill: #ffffff;
-    border-radius: 50%;
-    background-color: #2196f3;
-}
+
 
 .social__icon {
     width: 20px;

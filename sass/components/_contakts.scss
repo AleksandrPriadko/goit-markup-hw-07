@@ -10,10 +10,10 @@
     color: #757575;
     text-decoration: none;
     transition-duration: 250ms;
-}
 
-.textstyle:not(:last-child) {
-    margin-right: 50px;
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .address-link__icon-mail {

@@ -77,11 +77,6 @@
           transition-duration: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
 }
 
-.list-port a {
-  list-style: none;
-  text-decoration: none;
-}
-
 .list-port:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -95,22 +90,16 @@
   margin-bottom: 30px;
 }
 
+.list-port a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .container-box {
   width: 370px;
   height: auto;
   background: #ffffff;
   border: 1px solid #eeeeee;
-}
-
-.container-box p:not(:last-child) {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-  margin: 0px 0px;
 }
 
 .container-box p {
@@ -122,6 +111,17 @@
   letter-spacing: 0.03em;
   color: #757575;
   display: block;
+  margin: 0px 0px;
+}
+
+.container-box p:not(:last-child) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
   margin: 0px 0px;
 }
 

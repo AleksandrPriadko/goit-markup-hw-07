@@ -169,8 +169,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link:hover,
-.menu__link:focus {
+.menu__link:hover, .menu__link:focus {
   color: #2196f3;
 }
 
@@ -192,8 +191,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link:hover::after,
-.menu__link:focus::after {
+.menu__link:hover::after, .menu__link:focus::after {
   opacity: 1;
 }
 
@@ -589,8 +587,7 @@ body {
   display: inline-block;
 }
 
-.block-form-icon:hover,
-.block-form-icon:focus {
+.block-form-icon:hover, .block-form-icon:focus {
   fill: #2196f3;
 }
 

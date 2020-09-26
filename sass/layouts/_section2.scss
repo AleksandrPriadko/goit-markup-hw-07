@@ -27,11 +27,13 @@
 
 .img__item {
     display: block;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.img__item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 
 .overlay {
