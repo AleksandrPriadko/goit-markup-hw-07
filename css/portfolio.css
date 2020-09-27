@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* ПОРТФОЛИО */
 .botton {
   font-family: "Roboto";
   font-style: normal;
@@ -105,7 +104,7 @@
 .container-box p {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
