@@ -1078,7 +1078,7 @@ body {
 }
 
 .client__link:hover {
-  --color1: $color-blue;
+  --color1: #2196f3;
   border-color: #2196f3;
 }
 
