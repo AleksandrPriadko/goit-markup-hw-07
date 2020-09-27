@@ -47,7 +47,7 @@
     fill: #000000;
 
     &:hover {
-        fill: #2196f3;
+        fill: $color-blue;
     }
 }
 
@@ -95,7 +95,7 @@
 }
 
 .forms a {
-    color: #2196f3;
+    color: $color-blue;
 }
 
 .modal-block h2 {
@@ -132,8 +132,8 @@
     border-radius: 4px;
 
     font-size: 18px;
-    font-style: normal;
-    font-weight: normal;
+    font-style: $font-style;
+    font-weight: $font-weight;
 
     padding-left: 42px;
 
@@ -183,12 +183,12 @@
 
     &:hover,
     &:focus {
-        fill: #2196f3;
+        fill: $color-blue;
     }
 
     &:hover .form-input,
     &:focus .form-input {
-        border-color: #2196f3;
+        border-color: $color-blue;
         cursor: pointer;
     }
 }
@@ -198,9 +198,9 @@
 
 
 .form-items label {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
+    font-family: $font-famili;
+    font-style: $font-style;
+    font-weight: $font-weight;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -219,9 +219,9 @@
     padding: 12px 16px;
 
     &::placeholder {
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: normal;
+        font-family: $font-famili;
+        font-style: $font-style;
+        font-weight: $font-weight;
         font-size: 12px;
         line-height: 14px;
         letter-spacing: 0.01em;
@@ -233,10 +233,10 @@
 
 
 .forms label {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-family: $font-famili;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
     line-height: 24px;
     letter-spacing: 0.03em;
 
@@ -246,12 +246,12 @@
 .modal-form-send {
     width: 200px;
     height: 50px;
-    background: #2196f3;
+    background: $color-blue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-    font-family: "Roboto";
-    font-style: normal;
+    font-family: $font-famili;
+    font-style: $font-style;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
@@ -293,7 +293,7 @@
 
 .checkbox input:checked+.check-icon {
     border-color: transparent;
-    background-color: #2196f3;
+    background-color: $color-blue;
     background-image: url(../images/icon/check.svg);
     background-size: contain;
     background-position: center;

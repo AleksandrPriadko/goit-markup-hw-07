@@ -37,7 +37,7 @@
     &:hover {
         fill: #ffffff;
         border-radius: 50%;
-        background-color: #2196f3;
+        background-color: $color-blue;
     }
 }
 
@@ -55,10 +55,10 @@
 }
 
 .subject-socials {
-    font-family: "Roboto";
-    font-style: normal;
+    font-family: $font-famili;
+    font-style: $font-style;
     font-weight: bold;
-    font-size: 14px;
+    font-size: $font-size;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;

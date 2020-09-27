@@ -21,8 +21,8 @@
     transition-duration: 250ms;
 
     &:hover {
-        --color1: #2196f3;
-        border-color: #2196f3;
+        --color1: $color-blue;
+        border-color: $color-blue;
     }
 }
 

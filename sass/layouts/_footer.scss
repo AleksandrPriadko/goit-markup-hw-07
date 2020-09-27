@@ -1,6 +1,6 @@
 /*ПОДВАЛ*/
 .footer {
-    background-color: #2f303a;
+    background-color: $b-cdark;
     min-width: 1600px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -20,10 +20,10 @@
 }
 
 .block-form__heading {
-    font-family: "Roboto";
-    font-style: normal;
+    font-family: $font-famili;
+    font-style: $font-style;
     font-weight: bold;
-    font-size: 14px;
+    font-size: $font-size;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -53,9 +53,9 @@
     background-color: rgba(0, 0, 0, 0);
 
     &::placeholder {
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: normal;
+        font-family: $font-famili;
+        font-style: $font-style;
+        font-weight: $font-weight;
         font-size: 16px;
         letter-spacing: 0.03em;
 
